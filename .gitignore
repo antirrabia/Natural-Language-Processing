@@ -1,0 +1,6 @@
+# Ignore keras Models
+*.keras
+notebooks/.ipynb_checkpoints
+
+#Mac OS files
+.DS_Store
