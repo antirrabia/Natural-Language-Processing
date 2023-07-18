@@ -19,3 +19,11 @@ Ensuring adherence to best practices in deep learning architecture design is a p
 
 Join me on this exciting journey into the realm of Natural Language Processing. Together, we will explore text classification, sentiment analysis, and translation tasks, utilizing cutting-edge techniques and architectures to unlock the power of language understanding and generation.
 
+## Bag-of-Words Model
+
+The dataset used will be the **IMDB movie review sentiment-classification** dataset provided by Andre Maas at Stanford. 
+
+ - [Using single word(unigrams)](https://nbviewer.jupyter.org/github/antirrabia/Natural-Language-Processing/blob/main/notebooks/BagOfWords(1-gram).ipynb) - With this approach, the TextVectorization layer will yield multi-hot binary vectors. The layer will consider individual words, discarding any order, and treat the reviews as set(bag) of tokens. 
+
+
+## Sequencial models
