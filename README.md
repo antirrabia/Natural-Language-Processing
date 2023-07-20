@@ -23,7 +23,9 @@ Join me on this exciting journey into the realm of Natural Language Processing. 
 
 The dataset used will be the **IMDB movie review sentiment-classification** dataset provided by Andre Maas at Stanford. 
 
- - [Using single word(unigrams)](https://nbviewer.jupyter.org/github/antirrabia/Natural-Language-Processing/blob/main/notebooks/BagOfWords(1-gram).ipynb) - With this approach, the TextVectorization layer will yield multi-hot binary vectors. The layer will consider individual words, discarding any order, and treat the reviews as set(bag) of tokens. 
+ - [Using single word(unigrams)](https://nbviewer.jupyter.org/github/antirrabia/Natural-Language-Processing/blob/main/notebooks/BagOfWords(1-gram).ipynb) - With this approach, the TextVectorization layer will yield multi-hot binary vectors. The layer will consider individual words, discarding any order, and treat the reviews as set(bag) of tokens.
+
+- [Using bigrams](https://nbviewer.jupyter.org/github/antirrabia/Natural-Language-Processing/blob/main/notebooks/BagOfWords(multi-hot-bigram).ipynb) - With this approach, we will inject an extra bit of information, local order, into our bag-of-words. Our layer will see bigrams instead of single words.
 
 
 ## Sequencial models
