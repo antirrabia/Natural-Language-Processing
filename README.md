@@ -27,5 +27,7 @@ The dataset used will be the **IMDB movie review sentiment-classification** data
 
 - [Using bigrams](https://nbviewer.jupyter.org/github/antirrabia/Natural-Language-Processing/blob/main/notebooks/BagOfWords(multi-hot-bigram).ipynb) - With this approach, we enhance our bag-of-words with a sense of local order by utilizing bigrams. Consequently, our layer will process bigrams (binary-encoded bags of bigrams) rather than single words.
 
+- [Using bigrams(With tf-idf)](https://nbviewer.jupyter.org/github/antirrabia/Natural-Language-Processing/blob/main/notebooks/BagOfWords(tf-idf_bigram).ipynb) - With this approach, we will incorporate additional information by calculating the occurrence of bigrams, and we will further enhance the word counts by applying tf-idf normalization.
+
 
 ## Sequencial models
