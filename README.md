@@ -31,3 +31,8 @@ The dataset used will be the **IMDB movie review sentiment-classification** data
 
 
 ## Sequencial models
+To implement a sequence model, we will start by configuring the layers.TextVectorization to return the movie reviews as sequences of integer indices (with each integer representing a single word). Next, we will convert each integer index into a vector using techniques like multi-hot encoding, word embedding, and self-attention within a transformer encoder. Finally, we will input these sequences of vectors into a stack of layers, including options like a 1D convnet, an RNN, or a Transformer.
+
+- [Sequence Model(Multi-hot)](https://nbviewer.jupyter.org/github/antirrabia/Natural-Language-Processing/blob/main/notebooks/Sequence(one-hot_int).ipynb) - This approach is not recommended due to its inefficiency. By converting the sequence of integers using multi-hot encoding, we end up with a matrix of dimensions 600 (words in a review) by 20,000 (possible words).
+
+- [Sequence Model(Word-embedding)](https://nbviewer.jupyter.org/github/antirrabia/Natural-Language-Processing/blob/main/notebooks/Sequence(WordEmbedding).ipynb) - 
