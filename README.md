@@ -37,4 +37,13 @@ To implement a sequence model, we will start by configuring the layers.TextVecto
 
 - [Sequence Model(Word-embedding)](https://nbviewer.jupyter.org/github/antirrabia/Natural-Language-Processing/blob/main/notebooks/Sequence(WordEmbedding).ipynb) - A more robust approach involves training a layers.Embedding layer to obtain a vector representation for each word. This method is both more efficient and accurate. It is more efficient because it generates dense vectors with a dimension of 256, as opposed to the previous example's 20,000. Moreover, it is more accurate because each vector resides in a vector space that captures the semantic relationships between words, creating a consistent set of relationships with every other word in the space.
 
-- [Sequence Model(Pretrained Word-Embedding)](https://nbviewer.jupyter.org/github/antirrabia/Natural-Language-Processing/blob/main/notebooks/Sequence(PretrainedWordEmbedding).ipynb) - When we're unable to learn an appropriate task-specific embedding for our vocabulary, typically due to limited available training data, we can resort to using a pre-trained embedding.  
+- [Sequence Model(Pretrained Word-Embedding)](https://nbviewer.jupyter.org/github/antirrabia/Natural-Language-Processing/blob/main/notebooks/Sequence(PretrainedWordEmbedding).ipynb) - When we're unable to learn an appropriate task-specific embedding for our vocabulary, typically due to limited available training data, we can resort to using a pre-trained embedding. 
+
+## Sequence to Sequence Models
+ 
+
+
+- [Sequence to Sequence Model(GRU-base)](https://nbviewer.jupyter.org/github/antirrabia/Natural-Language-Processing/blob/main/notebooks/Sequence-to-Sequence(GRU-based).ipynb) - 
+
+- [Sequence to Sequence Model(Transformer)](https://nbviewer.jupyter.org/github/antirrabia/Natural-Language-Processing/blob/main/notebooks/Sequence-to-Sequence(Transformer).ipynb) - 
+
