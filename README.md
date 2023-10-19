@@ -40,7 +40,7 @@ To implement a sequence model, we will start by configuring the layers.TextVecto
 - [Sequence Model(Pretrained Word-Embedding)](https://nbviewer.jupyter.org/github/antirrabia/Natural-Language-Processing/blob/main/notebooks/Sequence(PretrainedWordEmbedding).ipynb) - When we're unable to learn an appropriate task-specific embedding for our vocabulary, typically due to limited available training data, we can resort to using a pre-trained embedding. 
 
 ## Sequence to Sequence Models
- 
+A sequence-to-sequence model takes a sequence as input and produces another sequence as output. I will implement such a model for a machine translation task, using an English-to-Spanish dataset. The input sequence will be English sentences, which the model will translate into Spanish sentences using a sequence-to-sequence architecture. Initially, I will use a recurrent neural network, and then move on to a full Transformer architecture.
 
 
 - [Sequence to Sequence Model(GRU-base)](https://nbviewer.jupyter.org/github/antirrabia/Natural-Language-Processing/blob/main/notebooks/Sequence-to-Sequence(GRU-based).ipynb) - 
